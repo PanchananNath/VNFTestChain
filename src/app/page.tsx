@@ -20,9 +20,9 @@ export default function Home() {
               <div className="max-w-xl mx-auto text-center">
               
                 <h2 className="text-3xl font-extrabold text-gray-900 text-center">
-               :: VNFTestChain :: Public </h2>
+               :: VNFRepuChain ::  </h2>
                 <p className="mt-4 text-lg text-black text-center">
-                Blockchain Based Test Framework for Trusted VNF Services in 5G and B5G 
+                Blockchain-based reputation model of trusted VNF services in 5G and Beyond Networks 
                 </p>
               
                 <br/>

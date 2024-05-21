@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@types/node": "20.5.7",
+    "@types/pg": "^8.11.6",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
@@ -17,8 +18,10 @@
     "bootstrap": "^5.3.3",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
+    "ethers": "^6.12.1",
     "fs": "^0.0.1-security",
     "next": "13.4.19",
+    "pg": "^8.11.5",
     "postcss": "8.4.29",
     "react": "18.2.0",
     "react-bootstrap": "^2.10.1",
@@ -30,9 +33,10 @@
     "truffle": "^5.11.5",
     "truffle-contract": "^4.0.31",
     "typescript": "5.2.2",
-    "web3": "^4.1.1"
+    "web3": "^4.8.0"
   },
   "devDependencies": {
-    "@types/react-star-ratings": "^2.3.3"
+    "@types/react-star-ratings": "^2.3.3",
+    "@types/web3": "^1.2.2"
   }
 }

@@ -1,21 +1,31 @@
 export const userData =[
     {
         id: "0",
-        username: "Badger",
-        name: "Badger",
+        username: "Vendor",
+        name: "Vendor",
         role: "0",
-        roleName: "Badger",
+        roleName: "Vendor",
         password: "123",
-        ethadd: "0x02e025C2C16efE7fcC1A733800665741B661e1bB",
+        ethadd: "0xae0Bd260aD7023cE24fBdb6D9898605B17E01d87",
     },
     {
         id: "1",
-        username: "Customer",
-        name: "Customer",
+        username: "ISP",
+        name: "ISP : Customer",
         role: "1",
-        roleName: "Customer",
+        roleName: "ISP",
         password: "123",
-        ethadd: "0x28Bd3a778a2f76EEC94550B6D81ED0aeCe37d8d8"
+        ethadd: "0x02B42178641e134c99477e4235c170317598B9AA"
+
+    },
+    {
+        id: "1",
+        username: "Subscriber",
+        name: "Subscriber : Customer",
+        role: "1",
+        roleName: "Subscriber",
+        password: "123",
+        ethadd: "0x175c2234b61eb268d7E735271Dd5EBd92a8517F2"
 
     },
    

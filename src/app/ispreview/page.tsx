@@ -112,8 +112,7 @@ export default function BadgerPage() {
       console.error('Error uploading Badger details:', error);
     }
   };
-  
-
+ 
   useEffect(() => {
     if (!userid) {
       console.log("User is not present");
@@ -175,7 +174,7 @@ export default function BadgerPage() {
                         </div>
                         <div className="w-full md:w-1/2 px-2 mb-5">
                           <label htmlFor="vendorid" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                            Vendor Name
+                            VendorID
                           </label>
                           <input
                             type="text"
@@ -185,7 +184,7 @@ export default function BadgerPage() {
                         </div>
                         <div className="w-full md:w-1/2 px-2 mb-5">
                           <label htmlFor="processor" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                            Processor Required
+                            Processor
                           </label>
                           <input
                             type="text"
@@ -195,7 +194,7 @@ export default function BadgerPage() {
                         </div>
                         <div className="w-full md:w-1/2 px-2 mb-5">
                           <label htmlFor="memory" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                            Memory Required
+                            Memory
                           </label>
                           <input
                             type="text"
@@ -205,7 +204,7 @@ export default function BadgerPage() {
                         </div>
                         <div className="w-full md:w-1/2 px-2 mb-5">
                           <label htmlFor="storage" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                            Storage Required
+                            Storage
                           </label>
                           <input
                             type="text"
@@ -215,7 +214,7 @@ export default function BadgerPage() {
                         </div>
                         <div className="w-full md:w-1/2 px-2 mb-5">
                           <label htmlFor="bandwidth" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                          Offered Bandwidth 
+                            Bandwidth
                           </label>
                           <input
                             type="text"
@@ -225,7 +224,7 @@ export default function BadgerPage() {
                         </div>
                         <div className="w-full md:w-1/2 px-2 mb-5">
                           <label htmlFor="security" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                          Offeres Security
+                            Security
                           </label>
                           <input
                             type="text"
@@ -287,7 +286,7 @@ export default function BadgerPage() {
                           className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
                           onClick={handleUpload}
                         >
-                          Submit VNF Details
+                          Submit Details
                         </button>
                       </div>
                     </div>
