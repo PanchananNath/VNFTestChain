@@ -1,4 +1,4 @@
-/*This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).*/
+Implementation of update version of the paper : VNFTestChain: Blockchain based test framework for trusted VNF services in 5G and B5G
 
 ## Getting Started
 
