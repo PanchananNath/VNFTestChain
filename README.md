@@ -1,4 +1,5 @@
-Implementation of update version of the paper : VNFTestChain: Blockchain based test framework for trusted VNF services in 5G and B5G
+## Implementation of update version of our paper: 
+VNFTestChain: Blockchain based test framework for trusted VNF services in 5G and B5G
 
 ## Getting Started
 
